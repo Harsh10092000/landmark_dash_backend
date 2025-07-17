@@ -1907,23 +1907,42 @@ export const fetchPropertyDataByUserId = (req, res) => {
 //   });
 // };
 
+// export const fetchPropertyDataByUserId1 = (req, res) => {
+//   //await verifyJwt(req,res);
+//   const q = `
+//     SELECT 
+//     property_module.*, 
+//     COUNT(property_interest.interest_property_id) AS pro_responses ,
+//     COALESCE(property_module.pro_views, 0) AS pro_views1 
+// FROM 
+//     property_module
+// LEFT JOIN 
+//     property_interest 
+// ON 
+//     property_module.pro_id = property_interest.interest_property_id
+// WHERE 
+//     property_module.pro_user_id = ?
+// GROUP BY 
+//     property_module.pro_id
+// ORDER BY 
+//     property_module.pro_id DESC;
+//     `;
+//   db.query(q, [req.params.userId], (err, data) => {
+//     if (err) return res.status(500).json(err);
+
+//     return res.status(200).json(data);
+//   });
+// };
+
+
+
 export const fetchPropertyDataByUserId1 = (req, res) => {
   //await verifyJwt(req,res);
   const q = `
-    SELECT 
-    property_module.*, 
-    COUNT(property_interest.interest_property_id) AS pro_responses ,
-    COALESCE(property_module.pro_views, 0) AS pro_views1 
+    SELECT *
 FROM 
     property_module
-LEFT JOIN 
-    property_interest 
-ON 
-    property_module.pro_id = property_interest.interest_property_id
-WHERE 
-    property_module.pro_user_id = ?
-GROUP BY 
-    property_module.pro_id
+
 ORDER BY 
     property_module.pro_id DESC;
     `;
