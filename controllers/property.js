@@ -2008,6 +2008,15 @@ ORDER BY
   });
 };
 
+export const getPropertyById = (req, res) => {
+  const q = `SELECT * FROM property_module WHERE pro_id = ?`;
+  db.query(q, [req.params.proId], (err, data) => {
+    if (err) return res.status(500).json(err);
+    return res.status(200).json(data);
+  });
+};
+
+
 // export const fetchDeListedPropertyDataById = (req, res) => {
 //   const q = `SELECT 
 //     property_module.*, 

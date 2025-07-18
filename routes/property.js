@@ -63,8 +63,12 @@ import {
   fetchResponsesByProId,
   fetchRespondentByUser,
   fetchRespondentByPro,
-  extendPropertyRenewDate
+  extendPropertyRenewDate,
   
+  getPropertyById
+  
+  
+
 } from "../controllers/property.js";
 
 import { verifyJwt } from "../controllers/verifyjwt.js";
@@ -256,6 +260,8 @@ router.put("/updateMultipleSaleStatus", updateMultipleSaleStatus);
 
 router.get("/fetchPropertiesAddInLast30Days/:userId", fetchPropertiesAddInLast30Days);
 
+
+router.get("/getPropertyById/:proId", getPropertyById);
 
 export default router;
 
