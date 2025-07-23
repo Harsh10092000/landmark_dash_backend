@@ -14,7 +14,7 @@ export const getSessionData = async (req, res) => {
     
         const sessionData = await response.json();
         if (!sessionData.user) {
-          return res.status(401).json({ error: 'Not authenticated' });
+          return res.status(401).json({ error: 'No data found' });
         }
     
         console.log("sessionData 11 : " , sessionData);
