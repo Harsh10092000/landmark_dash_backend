@@ -1,6 +1,6 @@
 export const verifySession = async (req, res, next) => {
     try {
-      const response = await fetch('http://localhost:3000/api/auth/session', {
+      const response = await fetch(process.env.NEXT_URL + '/api/auth/session', {
         method: 'GET',
         headers: {
           Cookie: req.headers.cookie || '', // Forward cookies from browser
