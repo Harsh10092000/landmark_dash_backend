@@ -32,7 +32,7 @@ const app = express();
 // };
 // app.use(cors(corsOptions));
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: ['http://localhost:5173', 'http://localhost:4176', 'https://user.landmarkplots.com'], 
   credentials: true,
 }));
 app.use(express.json());
@@ -95,6 +95,6 @@ app.use(express.static("./public"));
   app.use("/api/proemovalsetting", authAuroRemovalProperty);
   app.use("/api/session", authSession);
 
-app.listen(8010, () => {
+app.listen(8015, () => {
     console.log("App is running ");
   });

@@ -1,15 +1,6 @@
 import nodemailer from "nodemailer";
 import "dotenv/config";
 
-// export const transporter = nodemailer.createTransport({
-//   host: "smtp.hostinger.com",
-//   port: 587,
-//   secure: false,
-//   auth: {
-//     user: "noreply@propertyease.in",
-//     pass: "Property@123",
-//   },
-// });
 
 
 export const transporter = nodemailer.createTransport({
