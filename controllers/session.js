@@ -13,6 +13,7 @@ export const getSessionData = async (req, res) => {
         });
     
 
+        console.log("response : " , response);
 
         if (!response.ok) {
           return res.status(401).json({ error: 'Not authenticated' });
