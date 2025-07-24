@@ -1,5 +1,9 @@
+import "dotenv/config";
+
 export const getSessionData = async (req, res) => {
     try {
+      console.log("req.headers.cookie : " , req.headers.cookie);
+      console.log("process.env.NEXT_URL : " , process.env.NEXT_URL);
         const response = await fetch(process.env.NEXT_URL + '/api/auth/session', {
           method: 'GET',
           headers: {
@@ -8,6 +12,8 @@ export const getSessionData = async (req, res) => {
           credentials: 'include', // Include cookies
         });
     
+
+
         if (!response.ok) {
           return res.status(401).json({ error: 'Not authenticated' });
         }
