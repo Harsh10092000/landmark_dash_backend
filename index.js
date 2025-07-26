@@ -26,13 +26,21 @@ import authSession from "./routes/session.js"
 // import helmet from 'helmet';
 import { autoRemoveProperty, autoRemovePropertyReminder } from "./controllers/expiredMail.js";
 
+
+import authListing from "./routes/listing.js"
+
 const app = express();
 // var corsOptions = {
 //     origin: '*',  
 // };
 // app.use(cors(corsOptions));
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:4176', 'https://user.landmarkplots.com'], 
+  origin: [
+    'http://localhost:5173',
+    'http://localhost:4176',
+    'https://user.landmarkplots.com',
+    'https://landmarkplots.com' // <-- add production frontend
+  ],
   credentials: true,
 }));
 app.use(express.json());
@@ -94,7 +102,7 @@ app.use(express.static("./public"));
   app.use("/api/invite", authInvite);
   app.use("/api/proemovalsetting", authAuroRemovalProperty);
   app.use("/api/session", authSession);
-
-app.listen(8015, () => {
+  app.use("/api/listing", authListing);
+app.listen(8010, () => {
     console.log("App is running ");
   });
