@@ -28,6 +28,7 @@ import { autoRemoveProperty, autoRemovePropertyReminder } from "./controllers/ex
 
 
 import authListing from "./routes/listing.js"
+import authUserFavorites from "./routes/userFavorites.js"
 
 const app = express();
 // var corsOptions = {
@@ -103,6 +104,7 @@ app.use(express.static("./public"));
   app.use("/api/proemovalsetting", authAuroRemovalProperty);
   app.use("/api/session", authSession);
   app.use("/api/listing", authListing);
+  app.use("/api/userFavorites", authUserFavorites);
 app.listen(8015, () => {
     console.log("App is running ");
   });
