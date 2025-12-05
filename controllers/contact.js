@@ -202,7 +202,7 @@ export const freeEnquiry = (req, res) => {
 //                                    <td height="10px" style="font-size: 16px;line-height: 24px;letter-spacing:.3px;">
 //                                       <p style="color:#404040; margin-bottom: 10px;"> Dear User,</b>
 //                                       <p style="margin-bottom: 10px; font-size: 16px;">Someone showed interest in your property. Our team is going through it and get back to you.  </b></p>
-//                                       <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+//                                       <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
 //                                    </td>
 //                                 </tr>
 //                                 <tr>
@@ -349,7 +349,7 @@ export const freeEnquiry2 = (req, res) => {
                                       
                                       <a href='https://www.propertyease.in/${propertySlug}' style="margin-bottom: 10px; font-size: 16px;">${propertySlug}</a></p>
 
-                                      <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                      <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                    </td>
                                 </tr>
                                 
@@ -554,7 +554,7 @@ export const contactAgent = (req, res) => {
                                 <td height="10px" style="font-size: 16px;line-height: 24px;letter-spacing:.3px;">
                                    <p style="color:#404040; margin-bottom: 10px;"> Dear User,</b>
                                    <p style="margin-bottom: 10px; font-size: 16px;">${name}, ${email} has shown interest in your Profile. You can Contact him/her on <a href="https://wa.me/91${phone}">+91-${phone}</a>.  </b></p>
-                                   <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                   <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                 </td>
                              </tr>
                              <tr>
@@ -630,7 +630,7 @@ export const interestShowed = (req, res) => {
                                    <td height="10px" style="font-size: 16px;line-height: 24px;letter-spacing:.3px;">
                                       <p style="color:#404040; margin-bottom: 10px;"> Dear User,</b>
                                       <p style="margin-bottom: 10px; font-size: 16px;">Someone showed interest in your property. Our team is going through it and get back to you.  </b></p>
-                                      <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                      <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                    </td>
                                 </tr>
                                 <tr>
@@ -705,7 +705,7 @@ export const interestShowedInAgent = (req, res) => {
                                     <td height="10px" style="font-size: 16px;line-height: 24px;letter-spacing:.3px;">
                                        <p style="color:#404040; margin-bottom: 10px;"> Dear User,</b>
                                        <p style="margin-bottom: 10px; font-size: 16px;">Someone showed interest in your property. Our team is going through it and get back to you.  </b></p>
-                                       <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                       <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                     </td>
                                  </tr>
                                  <tr>
@@ -864,7 +864,7 @@ export const contactUsData = (req, res) => {
                                     <td height="10px" style="font-size: 16px;line-height: 24px;letter-spacing:.3px;">
                                        <p style="color:#404040; margin-bottom: 10px;"> Dear User,</b>
                                        <p style="margin-bottom: 10px; font-size: 16px;">Thank you for contacting with us. We will be in touch with you soon. </b></p>
-                                       <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                       <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support  <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                     </td>
                                  </tr>
                                  <tr>

@@ -54,7 +54,7 @@ export const autoRemovePropertyReminder = (req, res) => {
                                           }' style="margin-bottom: 10px; font-size: 16px;">${
             item.pro_url
           }</a>
-                                          <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                          <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                        </td>
                                     </tr>
                                     <tr>
@@ -165,7 +165,7 @@ export const autoRemoveProperty = (req, res) => {
                                        }' style="margin-bottom: 10px; font-size: 16px;">${
             item.pro_url
           }</a>
-                                       <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                       <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                     </td>
                                  </tr>
                                  <tr>

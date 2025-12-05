@@ -165,7 +165,7 @@ const paddedSlots = String(req.body.pro_plan_added_slots).padStart(2, randomPadS
                                         <p style="margin-bottom: 10px; font-size: 16px;">Thank you for choosing us. we're committed to providing you with the best services possible. </p>
                                         
                                         <p style="margin-bottom: 10px; font-size: 16px;">If you have any questions or feedback, please don't hesitate to reach out to us. We're here to help.</p>
-                                        <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                        <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                         </td>
                                   </tr>
                                   <tr>

@@ -223,7 +223,7 @@ export const addProperty = (req, res) => {
                                       <p style="margin-bottom: 10px; font-size: 16px;">Check out your property: <a href="https://propertyease.in/${
                                       propertyLink}">https://propertyease.in/${
                                         propertyLink}</a></p>
-                                      <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                      <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                       
                                       </td>
                                 </tr>
@@ -552,7 +552,7 @@ export const quickListing = (req, res) => {
 
                                      
                                     
-                                    <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                    <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                       
                                       </td>
                                 </tr>
@@ -940,7 +940,7 @@ export const quickListing1 = (req, res) => {
 
                                      
                                     
-                                    <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                    <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                                       
                                       </td>
                                 </tr>
@@ -1226,7 +1226,7 @@ const sendMultipleEmails = (emailsList, body, insertId, propertyLink, formatted_
                                                                   <p
                                                                       style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:Montserrat, helvetica, arial, sans-serif;line-height:21px;color:#69686D;font-size:14px">
                                                                       We are excited to share with you our latest property
-                                                                      listing! Please feel free to contact us at <a href="https://wa.me/918950040151">+91-89500-40151</a>. We are here to assist you and provide further information as needed.
+                                                                      listing! Please feel free to contact us at <a href="https://wa.me/919996716787">+91-99967-16787</a>. We are here to assist you and provide further information as needed.
                                                                   </p>
                                                               </td>
                                                           </tr>
@@ -2514,7 +2514,7 @@ export const extendPropertyRenewDate = (req, res) => {
                                   req.body.pro_url
     }</a>
     <p style="margin-bottom: 10px; font-size: 16px;">You can continue to manage and update your listing through your dashboard. If you have any questions or need further assistance, our support team is always here to help.</b></p>
-                                 <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/918950040151">+91-89500-40151</a> anytime for any information related to this enquiry.</p>
+                                 <p style="margin-bottom: 10px; font-size: 16px;">You may also contact our support at <a href="https://wa.me/919996716787">+91-99967-16787</a> anytime for any information related to this enquiry.</p>
                               </td>
                            </tr>
                            <tr>
