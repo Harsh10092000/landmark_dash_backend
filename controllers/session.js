@@ -38,3 +38,47 @@ export const getSessionData = async (req, res) => {
         res.status(500).json({ error: 'Internal server error' });
       }
 };
+
+export const logoutUser = async (req, res) => {
+  try {
+    console.log("Logout request - cookies:", req.headers.cookie);
+    const nextUrl = process.env.NEXT_URL || 'https://landmarkplots.com';
+    
+    // Call NextAuth signout endpoint
+    const response = await fetch(`${nextUrl}/api/auth/signout`, {
+      method: 'GET',
+      headers: {
+        Cookie: req.headers.cookie || '', // Forward cookies from browser
+      },
+      credentials: 'include',
+    });
+
+    console.log("Signout response status:", response.status, response);
+
+    // Also cleanup expired sessions
+    try {
+      await fetch(`${nextUrl}/api/auth/cleanup-sessions`, {
+        method: 'POST',
+        headers: {
+          Cookie: req.headers.cookie || '',
+        },
+        credentials: 'include',
+      });
+    } catch (cleanupErr) {
+      console.warn('Cleanup sessions error:', cleanupErr);
+    }
+
+    // Return success even if signout had issues (cookies might be cleared)
+    res.json({ 
+      success: true, 
+      message: 'Logged out successfully' 
+    });
+  } catch (error) {
+    console.error('Logout error:', error);
+    // Still return success to allow frontend to proceed with logout
+    res.json({ 
+      success: true, 
+      message: 'Logged out successfully' 
+    });
+  }
+};
